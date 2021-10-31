@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="item" value="boat rockerz 450"/>
+    <classes>
+      <class name="tests.TestScenarios">
+        <methods>
+          <include name="loadProperties"/>
+          <include name="setupReport"/>
+          <include name="getResult"/>
+          <include name="scenario2" invocation-numbers="0"/>
+          <include name="initialiseTest"/>
+          <include name="teardownReport"/>
+          <include name="closeWebDriver"/>
+        </methods>
+      </class> <!-- tests.TestScenarios -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

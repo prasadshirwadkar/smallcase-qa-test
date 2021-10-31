@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45760" started-at="2021-10-31T19:00:33 IST" finished-at="2021-10-31T19:01:19 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="45760" started-at="2021-10-31T19:00:33 IST" finished-at="2021-10-31T19:01:19 IST">
+      <class name="tests.TestScenarios">
+        <test-method status="PASS" signature="setupReport()[pri:0, instance:tests.TestScenarios@149494d8]" name="setupReport" is-config="true" duration-ms="2052" started-at="2021-10-31T19:00:31 IST" finished-at="2021-10-31T19:00:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method status="PASS" signature="loadProperties()[pri:0, instance:tests.TestScenarios@149494d8]" name="loadProperties" is-config="true" duration-ms="1" started-at="2021-10-31T19:00:33 IST" finished-at="2021-10-31T19:00:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadProperties -->
+        <test-method status="PASS" signature="initialiseTest()[pri:0, instance:tests.TestScenarios@149494d8]" name="initialiseTest" is-config="true" duration-ms="5187" started-at="2021-10-31T19:00:33 IST" finished-at="2021-10-31T19:00:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseTest -->
+        <test-method status="PASS" signature="scenario1(java.lang.String)[pri:0, instance:tests.TestScenarios@149494d8]" name="scenario1" duration-ms="10189" started-at="2021-10-31T19:00:38 IST" finished-at="2021-10-31T19:00:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[boat rockerz 450]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario1 -->
+        <test-method status="PASS" signature="closeWebDriver()[pri:0, instance:tests.TestScenarios@149494d8]" name="closeWebDriver" is-config="true" duration-ms="802" started-at="2021-10-31T19:00:48 IST" finished-at="2021-10-31T19:00:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWebDriver -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.TestScenarios@149494d8]" name="getResult" is-config="true" duration-ms="3" started-at="2021-10-31T19:00:49 IST" finished-at="2021-10-31T19:00:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario1 status=SUCCESS method=TestScenarios.scenario1(java.lang.String)[pri:0, instance:tests.TestScenarios@149494d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initialiseTest()[pri:0, instance:tests.TestScenarios@149494d8]" name="initialiseTest" is-config="true" duration-ms="2362" started-at="2021-10-31T19:00:49 IST" finished-at="2021-10-31T19:00:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseTest -->
+        <test-method status="PASS" signature="scenario2(java.lang.String)[pri:0, instance:tests.TestScenarios@149494d8]" name="scenario2" duration-ms="26185" started-at="2021-10-31T19:00:51 IST" finished-at="2021-10-31T19:01:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[boat rockerz 450]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario2 -->
+        <test-method status="PASS" signature="closeWebDriver()[pri:0, instance:tests.TestScenarios@149494d8]" name="closeWebDriver" is-config="true" duration-ms="943" started-at="2021-10-31T19:01:18 IST" finished-at="2021-10-31T19:01:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWebDriver -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.TestScenarios@149494d8]" name="getResult" is-config="true" duration-ms="1" started-at="2021-10-31T19:01:19 IST" finished-at="2021-10-31T19:01:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario2 status=SUCCESS method=TestScenarios.scenario2(java.lang.String)[pri:0, instance:tests.TestScenarios@149494d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardownReport()[pri:0, instance:tests.TestScenarios@149494d8]" name="teardownReport" is-config="true" duration-ms="984" started-at="2021-10-31T19:01:19 IST" finished-at="2021-10-31T19:01:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownReport -->
+      </class> <!-- tests.TestScenarios -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
